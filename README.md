@@ -1,3 +1,7 @@
-# Kill-server-yg-dugunakan
+# Kill-server-yg-dugunakan`
 
-sudo kill -9 `sudo lsof -t -i:9001`
+
+buka terinal lalu ketii :
+
+1. sudo lsof -i TCP:5000     //5000 adlah Port
+2.kill -9 <pid value>
